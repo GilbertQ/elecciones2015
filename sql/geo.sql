@@ -25,7 +25,7 @@ START TRANSACTION;
     INSERT INTO geo_departamentos VALUES (null, 'Sacatepéquez');
     INSERT INTO geo_departamentos VALUES (null, 'San Marcos');
     INSERT INTO geo_departamentos VALUES (null, 'Santa Rosa');
-    INSERT INTO geo_departamentos VALUES (null, 'Solola');
+    INSERT INTO geo_departamentos VALUES (null, 'Sololá');
     INSERT INTO geo_departamentos VALUES (null, 'Suchitepéquez');
     INSERT INTO geo_departamentos VALUES (null, 'Totonicapán');
     INSERT INTO geo_departamentos VALUES (null, 'Zacapa');
@@ -38,7 +38,7 @@ START TRANSACTION;
     (NULL, 'Chahal', 1, 'Chahal'),
     (NULL, 'Chisec', 1, 'Chisec'),
     (NULL, 'Cobán', 1, 'Cobán'),
-    (NULL, 'Fray Bartolomé de las Casas', 1, 'Bartolome de la casas'),
+    (NULL, 'Fray Bartolomé de las Casas', 1, 'Fray Bartolomé de la Casas'),
     (NULL, 'La Tinta', 1, 'La Tinta'),
     (NULL, 'Lanquín', 1, 'Lanquín'),
     (NULL, 'Panzós', 1, 'Panzós'),
@@ -47,7 +47,7 @@ START TRANSACTION;
     (NULL, 'San Juan Chamelco', 1, 'San Juan Chamelco'),
     (NULL, 'San Pedro Carchá', 1, 'San Pedro Carchá'),
     (NULL, 'Santa Cruz Verapaz', 1, 'Santa Cruz Verapaz'),
-    (NULL, 'Santa María Cahabón', 1, 'Santa MAR!A Cahabon'),
+    (NULL, 'Santa María Cahabón', 1, 'Santa María Cahabón'),
     (NULL, 'Senahú', 1, 'Senahú'),
     (NULL, 'Tamahú', 1, 'Tamahú'),
     (NULL, 'Tactic', 1, 'Tactic'),
@@ -77,7 +77,7 @@ START TRANSACTION;
     (NULL, 'San Martín Jilotepeque', 3, 'San Martín Jilotepeque'),
     (NULL, 'Santa Apolonia', 3, 'Santa Apolonia'),
     (NULL, 'Santa Cruz Balanyá', 3, 'Santa Cruz Balanyá'),
-    (NULL, 'Tecpán', 3, 'Tecpan Guatemala'),
+    (NULL, 'Tecpán', 3, 'Tecpán'),
     (NULL, 'Yepocapa', 3, 'Yepocapa'),
     (NULL, 'Zaragoza', 3, 'Zaragoza'),
 
@@ -89,7 +89,7 @@ START TRANSACTION;
     (NULL, 'Ipala', 4, 'Ipala'),
     (NULL, 'Jocotán', 4, 'Jocotán'),
     (NULL, 'Olopa', 4, 'Olopa'),
-    (NULL, 'Quezaltepeque', 4, 'Quetzaltepeque'),
+    (NULL, 'Quezaltepeque', 4, 'Quezaltepeque'),
     (NULL, 'San Jacinto', 4, 'San Jacinto'),
     (NULL, 'San José la Arada', 4, 'San José la Arada'),
     (NULL, 'San Juan Ermita', 4, 'San Juan Ermita'),
@@ -113,10 +113,10 @@ START TRANSACTION;
     (NULL, 'Masagua', 6, 'Masagua'),
     (NULL, 'Nueva Concepción', 6, 'Nueva Concepción'),
     (NULL, 'Palín', 6, 'Palín'),
-    (NULL, 'San José', 6, 'Puerto San Jose'),
+    (NULL, 'San José', 6, 'San José'),
     (NULL, 'San Vicente Pacaya', 6, 'San Vicente Pacaya'),
-    (NULL, 'Santa Lucía Cotzumalguapa', 6, 'Santa luc!a cotzumalguapa'),
-    (NULL, 'Siquinalá', 6, 'Siquinal'),
+    (NULL, 'Santa Lucía Cotzumalguapa', 6, 'Santa Lucía Cotzumalguapa'),
+    (NULL, 'Siquinalá', 6, 'Siquinalá'),
     (NULL, 'Tiquisate', 6, 'Pueblo Nuevo Tiquisate'),
 
       -- Guatemala
@@ -201,7 +201,7 @@ START TRANSACTION;
     (NULL, 'Jutiapa', 11, 'Jutiapa'),
     (NULL, 'Moyuta', 11, 'Moyuta'),
     (NULL, 'Pasaco', 11, 'Pasaco'),
-    (NULL, 'Quesada', 11, 'Quezada'),
+    (NULL, 'Quesada', 11, 'Quesada'),
     (NULL, 'San José Acatempa', 11, 'San José Acatempa'),
     (NULL, 'Santa Catarina Mita', 11, 'Santa Catarina Mita'),
     (NULL, 'Yupiltepeque', 11, 'Yupiltepeque'),
@@ -226,7 +226,7 @@ START TRANSACTION;
       -- Quetzaltenango
     (NULL, 'Almolonga', 13, 'Almolonga'),
     (NULL, 'Cabricán', 13, 'Cabricán'),
-    (NULL, 'Cajolá', 13, 'Cajol'),
+    (NULL, 'Cajolá', 13, 'Cajolá'),
     (NULL, 'Cantel', 13, 'Cantel'),
     (NULL, 'Coatepeque', 13, 'Coatepeque'),
     (NULL, 'Colomba Costa Cuca', 13, 'Colomba'),
@@ -264,7 +264,7 @@ START TRANSACTION;
     (NULL, 'Patzité', 14, 'Patzité'),
     (NULL, 'Sacapulas', 14, 'Sacapulas'),
     (NULL, 'San Andrés Sajcabajá', 14, 'San Andrés Sajcabajá'),
-    (NULL, 'San Antonio Ilotenango', 14, 'San Antonio Alotenango'),
+    (NULL, 'San Antonio Ilotenango', 14, 'San Antonio Ilotenango'),
     (NULL, 'San Bartolomé Jocotenango', 14, 'San Bartolomé Jocotenango'),
     (NULL, 'San Juan Cotzal', 14, 'San Juan Cotzal'),
     (NULL, 'San Pedro Jocopilas', 14, 'San Pedro Jocopilas'),
@@ -293,7 +293,7 @@ START TRANSACTION;
     (NULL, 'San Antonio Aguas Calientes', 16, 'San Antonio Aguas Calientes'),
     (NULL, 'San Bartolomé Milpas Altas', 16, 'San Bartolomé Milpas Altas'),
     (NULL, 'San Lucas Sacatepéquez', 16, 'San Lucas Sacatepéquez'),
-    (NULL, 'San Miguel Dueñas', 16, 'San Miguel DUE?AS'),
+    (NULL, 'San Miguel Dueñas', 16, 'San Miguel Dueñas'),
     (NULL, 'Santa Catarina Barahona', 16, 'Santa Catarina Barahona'),
     (NULL, 'Santa Lucía Milpas Altas', 16, 'Santa Lucía Milpas Altas'),
     (NULL, 'Santa María de Jesús', 16, 'Santa María de Jesús'),
@@ -302,7 +302,7 @@ START TRANSACTION;
     (NULL, 'Sumpango', 16, 'Sumpango'),
 
       -- San Marcos
-    (NULL, 'Ayutla', 17, 'Ciudad Tecun Human Ayutla'),
+    (NULL, 'Ayutla', 17, 'Ciudad Tecún Umán Ayutla'),
     (NULL, 'Catarina', 17, 'Catarina'),
     (NULL, 'Comitancillo', 17, 'Comitancillo'),
     (NULL, 'Concepción Tutuapa', 17, 'Concepción Tutuapa'),
@@ -351,23 +351,23 @@ START TRANSACTION;
 
     -- Sololá
     (NULL, 'Concepción', 19, 'Concepción'),
-    (NULL, 'Nahualá', 19, 'Nahual'),
+    (NULL, 'Nahualá', 19, 'Nahualá'),
     (NULL, 'Panajachel', 19, 'Panajachel'),
     (NULL, 'San Andrés Semetabaj', 19, 'San Andrés Semetabaj'),
     (NULL, 'San Antonio Palopó', 19, 'San Antonio Palopó'),
     (NULL, 'San José Chacayá', 19, 'San José Chacayá'),
-    (NULL, 'San Juan La Laguna', 19, 'San Juan Laguna'),
+    (NULL, 'San Juan La Laguna', 19, 'San Juan La Laguna'),
     (NULL, 'San Lucas Tolimán', 19, 'San Lucas Tolimán'),
-    (NULL, 'San Marcos La Laguna', 19, 'San Marcos Laguna'),
+    (NULL, 'San Marcos La Laguna', 19, 'San Marcos La Laguna'),
     (NULL, 'San Pablo La Laguna', 19, 'San Pablo La Laguna'),
-    (NULL, 'San Pedro La Laguna', 19, 'San Pedro Laguna'),
-    (NULL, 'Santa Catarina Ixtahuacán', 19, 'Santa Catarina Ixtahuatan'),
+    (NULL, 'San Pedro La Laguna', 19, 'San Pedro La Laguna'),
+    (NULL, 'Santa Catarina Ixtahuacán', 19, 'Santa Catarina Ixtahuacán'),
     (NULL, 'Santa Catarina Palopó', 19, 'Santa Catarina Palopó'),
     (NULL, 'Santa Clara La Laguna', 19, 'Santa Clara La Laguna'),
     (NULL, 'Santa Cruz La Laguna', 19, 'Santa Cruz La Laguna'),
     (NULL, 'Santa Lucía Utatlán', 19, 'Santa Lucía Utatlán'),
     (NULL, 'Santa María Visitación', 19, 'Santa María Visitación'),
-    (NULL, 'Santiago Atitlán', 19, 'SANTIAGO ATITL AN'),
+    (NULL, 'Santiago Atitlán', 19, 'Santiago Atitlán'),
     (NULL, 'Sololá', 19, 'Sololá'),
 
     -- Suchitepéquez
@@ -404,7 +404,7 @@ START TRANSACTION;
     (NULL, 'Totonicapán', 21, 'Totonicapán'),
 
     -- Zacapa
-    (NULL, 'Cabañas', 22, 'CABA?AS'),
+    (NULL, 'Cabañas', 22, 'Cabañas'),
     (NULL, 'Estanzuela', 22, 'Estanzuela'),
     (NULL, 'Gualán', 22, 'Gualán'),
     (NULL, 'Huité', 22, 'Huité'),
